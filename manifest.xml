@@ -1,0 +1,16 @@
+<package>
+  <description brief="tf_lgsm">
+
+     tf_lgsm
+
+  </description>
+  <author>Sovannara Hak</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/tf_lgsm</url>
+  <depend package="eigen_lgsm"/>
+  <depend package="tf"/>
+
+</package>
+
+
