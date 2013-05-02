@@ -10,6 +10,9 @@
   <url>http://ros.org/wiki/tf_lgsm</url>
   <depend package="eigen_lgsm"/>
   <depend package="tf"/>
+  <export>
+	  <cpp cflags="-I${prefix}/include/" lflags="-L${prefix}/lib -ltf_lgsm"/>
+  </export>
 
 </package>
 
